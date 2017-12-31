@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\gradle-example-1.0.0-4.4.1.jar;%APP_HOME%\lib\commons-lang3-3.3.2.jar
+set CLASSPATH=%APP_HOME%\lib\gradle-example-1.0.0-4.4.1.jar;%APP_HOME%\lib\commons-lang3-3.3.2.jar;%APP_HOME%\lib\javax.servlet-api-3.1.0.jar;%APP_HOME%\lib\javax.websocket-api-1.0.jar
 
 @rem Execute gradle-example-1.0.0
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_EXAMPLE_1_0_0_OPTS%  -classpath "%CLASSPATH%" example.Example %CMD_LINE_ARGS%
